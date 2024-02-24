@@ -15,7 +15,7 @@ export default class DisplayWeatherInfo extends LightningElement {
             this.temperature = temp;
         }
         if(error){
-            console.log('Error ::: ',error)
+            console.error('Error ::: ',error)
         }
     }
 }
